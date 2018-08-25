@@ -4,5 +4,5 @@ function factorial_cal(){
     for(i=factorial_input;i>=1;i--){
         j = j * i;
     }
-    document.getElementById("factorial_result").innerHTML = "Factorial of"+factorial_input+" is "+j;
+    document.getElementById("factorial_result").innerHTML = "Factorial of "+factorial_input+" is "+j;
 }
